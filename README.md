@@ -1,2 +1,3 @@
 # Academy.NET
-dsadasdasdas
+Prova di rebase
+Prova di conflitto
