@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AcademyWebAPI.Exention
+namespace AcademyWebAPI.Extention
 {
     public static class APIConventions
     {
@@ -17,16 +17,12 @@ namespace AcademyWebAPI.Exention
         (
             [ApiConventionNameMatch(ApiConventionNameMatchBehavior.Suffix)]
             [ApiConventionTypeMatch(ApiConventionTypeMatchBehavior.Any)]
-            Object id)
+            object id)
         {
 
 
-        }
-<<<<<<< HEAD
-    }
-}
-=======
 
+        }
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
@@ -35,8 +31,7 @@ namespace AcademyWebAPI.Exention
         public static void Post(
             [ApiConventionNameMatch(ApiConventionNameMatchBehavior.Any)]
             [ApiConventionTypeMatch(ApiConventionTypeMatchBehavior.Any)]
-            Object obj
-            ) { }
+            object obj)
+        { }
     }
 }
->>>>>>> Fabbroni

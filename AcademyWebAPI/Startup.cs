@@ -33,16 +33,26 @@ namespace AcademyWebAPI
             services.AddSingleton<IRepository<Student>, StudentRepository>();
             services.AddSingleton<IRepository<Exam>, ExamRepository>();
             services.AddSingleton<StudentService>();
+<<<<<<< HEAD
 
             services.AddSwaggerGen(x => { x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { 
                 Title = "AcademyAPI",
                 Version = "v1"});
+=======
+            services.AddSwaggerGen(x => {
+                x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "AcademyAPI",
+                    Version = "v1"
+                });
+>>>>>>> Fabbroni
             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+<<<<<<< HEAD
             /*
             app.Use(async (context, next) =>
             {
@@ -59,17 +69,30 @@ namespace AcademyWebAPI
             });
             */
 
+=======
+            
+>>>>>>> Fabbroni
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
+<<<<<<< HEAD
             app.UseSwagger();
 
             app.UseSwaggerUI(x => { x.SwaggerEndpoint("/swagger/v1/swagger.json", "AcademyAPI"); } );
 
             app.UseHttpsRedirection();
 
+=======
+            app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(x => {
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "AccademyAPI");
+            });
+
+>>>>>>> Fabbroni
             app.UseRouting();
 
             app.UseAuthorization();

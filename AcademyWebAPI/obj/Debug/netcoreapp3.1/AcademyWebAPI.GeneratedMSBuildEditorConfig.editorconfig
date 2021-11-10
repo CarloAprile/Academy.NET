@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = AcademyWebAPI
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\ruggiero.pedico\Desktop\Progetti\AcademyWebAPI\
+=======
+build_property.ProjectDir = C:\Users\savino.fiore\OneDrive - Fincons Spa\Desktop\AcademyWebAPI\
+>>>>>>> Fabbroni

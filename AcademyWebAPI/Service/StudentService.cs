@@ -20,7 +20,10 @@ namespace AcademyWebAPI.Service
 
         public IEnumerable<Student> Get()
         {
+<<<<<<< HEAD
             //throw new Exception("Scoppiato alla riga 23");
+=======
+>>>>>>> Fabbroni
             return _repositoryStudent.GetElements();
         }
 
@@ -88,7 +91,11 @@ namespace AcademyWebAPI.Service
         {
             try
             {
+<<<<<<< HEAD
                 throw new Exception("Scoppiato alla riga 90");
+=======
+                //throw new Exception("Scoppiato alla riga 90");
+>>>>>>> Fabbroni
 
                 if (_repositoryStudent.Exists(id))
                 {
