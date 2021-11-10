@@ -1,0 +1,24 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "2A8sY4mKHs0ugD+khoEcJ4WS/3i9kQ85u1+kunbvRLrXtWfgW7891DEzUE0i+yGZZ/R+3P6kghz2j7HS/2mkKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ruggiero.pedico\\Desktop\\Progetti\\AcademyWebAPI\\AcademyWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ruggiero.pedico\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ruggiero.pedico\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ruggiero.pedico\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ruggiero.pedico\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+=======
+  "dgSpecHash": "tDNxSbRebnbCvW7uT58S3oJitgZeSgMjMAjVlRYr42sF/dU+BBOvlDpGTazIWvL9ZlG4T0m2ASISxI6LxuHwlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\savino.fiore\\OneDrive - Fincons Spa\\Desktop\\AcademyWebAPI\\AcademyWebAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savino.fiore\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\savino.fiore\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\savino.fiore\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\savino.fiore\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+>>>>>>> Fabbroni
+  ],
+  "logs": []
+}
