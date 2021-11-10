@@ -4,6 +4,10 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
+<<<<<<< HEAD
     <ActiveDebugProfile>AcademyTest</ActiveDebugProfile>
+=======
+    <ActiveDebugProfile>AcademyWebAPI</ActiveDebugProfile>
+>>>>>>> Fabbroni
   </PropertyGroup>
 </Project>

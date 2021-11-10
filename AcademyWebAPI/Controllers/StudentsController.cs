@@ -52,10 +52,14 @@ namespace AcademyWebAPI.Controllers
 
         // students 
         [HttpPost]
+<<<<<<< HEAD
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+=======
+        [ApiConventionMethod(typeof(APIConventions), nameof(APIConventions.Post))]
+>>>>>>> Fabbroni
         public ActionResult CreateStudent(Student student)
         {
             if(student == null)
@@ -80,8 +84,13 @@ namespace AcademyWebAPI.Controllers
         //PUT students/id
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
+<<<<<<< HEAD
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status200OK)]
+=======
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+>>>>>>> Fabbroni
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult UpdateStudent(int id, Student student)
         {
@@ -107,7 +116,11 @@ namespace AcademyWebAPI.Controllers
 
         //DELETE students/id
         [HttpDelete("{id}")]
+<<<<<<< HEAD
         [ProducesResponseType(StatusCodes.Status404NotFound)]
+=======
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+>>>>>>> Fabbroni
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public ActionResult DeleteStudent(int id)
@@ -122,6 +135,12 @@ namespace AcademyWebAPI.Controllers
                 default:
                     return Problem();
             }
+<<<<<<< HEAD
         }
+=======
+
+        }
+
+>>>>>>> Fabbroni
     }
 }

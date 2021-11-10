@@ -1,6 +1,10 @@
 ﻿using AcademyWebAPI.Exention;
 using AcademyWebAPI.Model;
 using AcademyWebAPI.Repository;
+<<<<<<< HEAD
+=======
+using Microsoft.AspNetCore.Http;
+>>>>>>> Fabbroni
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -28,9 +32,14 @@ namespace AcademyWebAPI.Controllers
         }
 
         // Exams/id
+<<<<<<< HEAD
         [HttpGet("{id}")] // stiamo standardizzando il comportamento
         [ApiConventionMethod(typeof(APIConventions), nameof(APIConventions.Get))]
 
+=======
+        [HttpGet("{id}")]
+        [ApiConventionMethod(typeof(APIConventions), nameof(APIConventions.Get))]
+>>>>>>> Fabbroni
         public ActionResult<Exam> GetById(int id)
         {
             Exam exam = _repository.GetElementById(id);
@@ -44,6 +53,10 @@ namespace AcademyWebAPI.Controllers
 
         // Exams 
         [HttpPost]
+<<<<<<< HEAD
+=======
+        [ApiConventionMethod(typeof(APIConventions), nameof(APIConventions.Post))]
+>>>>>>> Fabbroni
         public ActionResult CreateExam(Exam exam)
         {
             if(exam == null)
